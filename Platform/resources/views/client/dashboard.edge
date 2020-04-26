@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Elite Trader Academy © Turbo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="x" name="description"/>
+        <meta content="x" name="author" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="favicon.png">
+
+        <link href="/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet">
+        <!-- DataTables -->
+        <link href="/assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- App css -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+            @include('components/header')
+            @include('components/headermenu')
+
+            <!-- Page Content-->
+            <div class="page-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-md-9">
+                                            <h4 class="mt-0">Dados em tempo real para você.</h4>
+                                            <p class="text-muted">Bom trabalho!!!</p>
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-3">
+                                                    <div class="card card-second mb-0">
+                                                        <div class="card-body">
+                                                            <div class="float-right">
+                                                                <i class="dripicons-user-group font-24 text-secondary"></i>
+                                                            </div>
+                                                            <span class="badge badge-danger">Minha Rede</span>
+                                                            <h3 class="font-weight-bold">0</h3>
+                                                            <p class="mb-0 text-muted text-truncate"><span class="text-success"><i class="mdi mdi-trending-up"></i>8.5%</span> média ao mês.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card card-second mb-0">
+                                                        <div class="card-body">
+                                                            <div class="float-right">
+                                                                <i class="dripicons-wallet font-20 text-secondary"></i>
+                                                            </div>
+                                                            <span class="badge badge-info">Plano Ativos</span>
+                                                            <h3 class="font-weight-bold">0</h3>
+                                                            <p class="mb-0 text-muted text-truncate"><span class="text-danger"><i class="mdi mdi-trending-up"></i>62</span> Usuários não Ativos.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card card-second mb-0">
+                                                        <div class="card-body">
+                                                            <div class="float-right">
+                                                                <i class="mdi mdi-cash-usd  font-20 text-secondary"></i>
+                                                            </div>
+                                                            <span class="badge badge-success">Saldo Disponível </span>
+                                                            <h3 class="font-weight-bold">R$ 0</h3>
+                                                            <p class="mb-0 text-muted text-truncate">Ganhos em rede, produtos...</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="card card-second mb-0">
+                                                        <div class="card-body">
+                                                            <div class="float-right">
+                                                                <i class="dripicons-jewel font-20 text-secondary"></i>
+                                                            </div>
+                                                            <span class="badge badge-warning">Plano Atual</span>
+                                                            <h3 class="font-weight-bold">Pack Elite</h3>
+                                                            <p class="mb-0 text-muted text-truncate">Continue crescendo com a Elite.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 align-self-center">
+                                            <img src="assets/images/dash.svg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div><!--end card-body-->
+
+                            </div><!--end card-->
+                        </div> <!--end col-->
+                    </div><!--end row-->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title mt-0">Progresso da sua Equipe</h4>
+                                    <div class="chart-demo dash-apex-chart">
+                                        <div id="d2_overview" class="apex-charts"></div>
+                                    </div>
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!--end col-->
+                    </div><!--end row-->
+
+
+
+
+
+                </div><!-- container -->
+
+              @include('components/footer')
+
+            </div>
+            <!-- end page content -->
+        </div>
+        <!-- end page-wrapper -->
+
+        <!-- jQuery  -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/js/waves.min.js"></script>
+        <script src="/assets/js/jquery.slimscroll.min.js"></script>
+
+        <script src="/assets/plugins/moment/moment.js"></script>
+        <script src="/assets/plugins/apexcharts/apexcharts.min.js"></script>
+        <script src="https://apexcharts.com/samples/assets/irregular-data-series.js"></script>
+        <script src="https://apexcharts.com/samples/assets/series1000.js"></script>
+        <script src="https://apexcharts.com/samples/assets/ohlc.js"></script>
+
+        <script src="/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
+        <script src="/assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
+        <!-- Required datatable js -->
+        <script src="/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="/assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+
+        <script src="/assets/pages/jquery.dashboard-2.init.js"></script>
+
+        <!-- App js -->
+        <script src="/assets/js/app.js"></script>
+
+    </body>
+</html>

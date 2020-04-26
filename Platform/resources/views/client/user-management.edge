@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Elite Trader Academy © Turbo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A premium admin dashboard template by mannatthemes" name="description" />
+        <meta content="Mannatthemes" name="author" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- DataTables -->
+        <link href="/assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <!-- Responsive datatable examples -->
+        <link href="/assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- App css -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+            @include('components/header')
+            @include('components/headermenu')
+
+            <!-- Page Content-->
+            <div class="page-content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+
+                                    <h4 class="mt-0 mb-2 header-title">Gerenciamento de Usuaríos</h4>
+
+                                    <table
+                                        id="datatable-buttons"
+                                        class="table table-striped table-bordered dt-responsive nowrap"
+                                        style="border-collapse: collapse; border-spacing: 0; width: 100%;"
+                                    >
+                                        <thead>
+                                        <tr>
+                                            <th>Nome</th>
+                                            <th>Login</th>
+                                            <th>Email</th>
+                                            <th>Telefone</th>
+                                            <th>Saldo</th>
+                                            <th>Status</th>
+                                            <th>Ação</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                            <td>Michael Bruce</td>
+                                            <td>js2020</td>
+                                            <td>js2020@gmail.com</td>
+                                            <td>+55 11 94141 1042</td>
+                                            <td>$183,000</td>
+                                            <td><span class="badge badge-success">Ativo</span></td>
+                                            <td>
+                                                <a href="" class=""> <i class="far fa-eye text mr-2"></i></a>
+                                                <a href="#" class=""><i class="fas fa-edit text-success"></i></a>
+                                                <a href="#" class=""><i class="fas fa-trash-alt text-danger ml-2"></i></a>
+                                            </td>
+                                        </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div> <!-- end col -->
+                    </div> <!-- end row -->
+
+                </div><!-- container -->
+
+                @include('components/footer')
+
+            </div>
+            <!-- end page content -->
+        </div>
+        <!-- end page-wrapper -->
+
+        <!-- jQuery  -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/js/waves.min.js"></script>
+        <script src="/assets/js/jquery.slimscroll.min.js"></script>
+
+        <!-- Required datatable js -->
+        <script src="/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="/assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+
+        <!-- Buttons examples -->
+        <script src="/assets/plugins/datatables/dataTables.buttons.min.js"></script>
+        <script src="/assets/plugins/datatables/buttons.bootstrap4.min.js"></script>
+        <script src="/assets/plugins/datatables/jszip.min.js"></script>
+        <script src="/assets/plugins/datatables/pdfmake.min.js"></script>
+        <script src="/assets/plugins/datatables/vfs_fonts.js"></script>
+        <script src="/assets/plugins/datatables/buttons.html5.min.js"></script>
+        <script src="/assets/plugins/datatables/buttons.print.min.js"></script>
+        <script src="/assets/plugins/datatables/buttons.colVis.min.js"></script>
+
+        <!-- Responsive examples -->
+        <script src="/assets/plugins/datatables/dataTables.responsive.min.js"></script>
+        <script src="/assets/plugins/datatables/responsive.bootstrap4.min.js"></script>
+        <script src="/assets/pages/jquery.datatable.init.js"></script>
+
+        <!-- App js -->
+        <script src="/assets/js/app.js"></script>
+
+    </body>
+</html>

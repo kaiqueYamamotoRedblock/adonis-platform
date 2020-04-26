@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <title>Elite Trader Academy © Turbo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A premium admin dashboard template by mannatthemes" name="description" />
+        <meta content="Mannatthemes" name="author" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="/favicon.ico">
+
+        <link href="/assets/plugins/ticker/jquery.jConveyorTicker.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/plugins/dropify/css/dropify.min.css" rel="stylesheet">
+
+        <!-- App css -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+
+            @include('components/header')
+            @include('components/headermenu')
+
+            <!-- Page Content-->
+            <div class="page-content">
+
+                <div class="col-lg-12">
+                    <div class="card">
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+
+                                  <h4 class="mt-0 header-title">Área de Estudos</h4>
+
+                                  @include('components/navbaracademy')
+
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!-- end col -->
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                            <h4 class="mt-0 header-title mb-3">Images</h4>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-image-multiple mr-2 text-primary"></i>All Images</h5>
+                                                            <div class="row no-gutters m-0">
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-1.jpg" data-fancybox="images" title="Project 1">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-1.jpg" alt="" class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-2.jpg" data-fancybox="images" title="Project 2">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-2.jpg" alt="" class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-3.jpg" data-fancybox="images" title="Project 3">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-3.jpg" alt=""  class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div> <!--end col-->
+                                                            </div> <!--end row-->
+                                                            <div class="float-right mt-3">
+                                                                <a href="#" class="text-primary mt-1">
+                                                                    <i class="mdi mdi-chevron-down"></i> View All
+                                                                </a>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-whatsapp mr-2 text-success"></i>WhatsApp Images</h5>
+                                                            <div class="row no-gutters m-0">
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-7.jpg" data-fancybox="images" title="Project 1">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-7.jpg" alt="" class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-6.jpg" data-fancybox="images" title="Project 2">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-6.jpg" alt="" class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-4.jpg" data-fancybox="images" title="Project 3">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-4.jpg" alt=""  class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                            </div> <!--end row-->
+                                                            <div class="float-right mt-3">
+                                                                <a href="#" class="text-primary mt-1">
+                                                                    <i class="mdi mdi-chevron-down"></i> View All
+                                                                </a>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-camera mr-2 text-dark"></i>Camera Images</h5>
+                                                            <div class="row no-gutters m-0">
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-4.jpg" data-fancybox="images" title="Project 4">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-4.jpg" alt="" class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-5.jpg" data-fancybox="images" title="Project 5">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-5.jpg" alt="" class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-6.jpg" data-fancybox="images" title="Project 6">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-6.jpg" alt=""  class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                            </div> <!--end row-->
+                                                            <div class="float-right mt-3">
+                                                                <a href="#" class="text-primary mt-1">
+                                                                    <i class="mdi mdi-chevron-down"></i> View All
+                                                                </a>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-cards-heart mr-2 text-pink"></i>Favorite Images</h5>
+                                                            <div class="row no-gutters m-0">
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-1.jpg" data-fancybox="images" title="Project 1">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-1.jpg" alt="" class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-2.jpg" data-fancybox="images" title="Project 2">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-2.jpg" alt="" class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div><!--end col-->
+                                                                <div class="col-sm-4">
+                                                                    <a href="assets/images/small/img-3.jpg" data-fancybox="images" title="Project 3">
+                                                                        <div class="img-fluid">
+                                                                            <img src="assets/images/small/img-3.jpg" alt=""  class="img-fluid">
+                                                                        </div>
+                                                                    </a>
+                                                                </div> <!--end col-->
+                                                            </div>  <!--end row-->
+                                                            <div class="float-right mt-3">
+                                                                <a href="#" class="text-primary mt-1">
+                                                                    <i class="mdi mdi-chevron-down"></i> View All
+                                                                </a>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+
+                                        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                            <h4 class="mt-0 header-title mb-3">Videos</h4>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-vimeo mr-2 text-success"></i>Módulo - 04</h5>
+                                                            <div class="row no-gutters m-0">
+                                                                <div class="col-sm-3">
+                                                                    <iframe src="https://player.vimeo.com/video/307122856" width="700" height="400" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+                                                                </div><!--end col-->
+
+                                                                        <div class="col-sm-3">
+                                                                            <div class="nav flex-column nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                                                <a class="nav-link waves-effect waves-light active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                                                                                <a class="nav-link waves-effect waves-light" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                                                                                <a class="nav-link waves-effect waves-light" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-sm-3">
+                                                                            <div class="tab-content mo-mt-2" id="v-pills-tabContent">
+                                                                                <div class="tab-pane fade active show" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                                                                    <p class="text-muted mb-0">
+                                                                                        Trust fund seitan letterpress, keytar raw denim keffiyeh etsy
+                                                                                        art party before they sold out master cleanse gluten-free squid
+                                                                                        scenester freegan cosby sweater. Fanny pack portland seitan DIY,
+                                                                                        art party locavore wolf cliche high life echo park Austin. Cred
+                                                                                        vinyl keffiyeh DIY salvia PBR, banh mi before they sold out
+                                                                                        farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral,
+                                                                                        mustache readymade thundercats keffiyeh craft beer marfa
+                                                                                        ethical. Wolf salvia freegan, sartorial keffiyeh echo park
+                                                                                        vegan.
+                                                                                    </p>
+                                                                                </div>
+                                                                                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                                                                    <p class="text-muted mb-0">
+                                                                                        Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin
+                                                                                        coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next
+                                                                                        level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo
+                                                                                        booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco
+                                                                                            ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magn
+                                                                                            a delectus mollitbooth letterpress, commodo enim craft beer mlkshk aliquip jean
+                                                                                            shorts ullamco.
+                                                                                    </p>
+                                                                                </div>
+                                                                                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                                                                    <p class="text-muted mb-0">
+                                                                                        Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin
+                                                                                        coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next
+                                                                                        level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo
+                                                                                        booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco
+                                                                                            ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magn
+                                                                                            a delectus mollitbooth letterpress, commodo enim craft beer mlkshk aliquip jean
+                                                                                            shorts ullamco.
+                                                                                    </p>
+                                                                                </div>
+                                                                            </div>
+
+                                                                      </div>
+
+
+                                                                    </div> <!--end row-->
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+
+                                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                            <h4 class="mt-0 header-title mb-3">Módulo - 05</h4>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-file-document mr-2 text-success"></i>Document</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-file-document"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-file-document mr-2 text-success"></i>Document</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-file-document"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+
+                                        <div class="tab-pane fade" id="pills-home-1" role="tabpanel" aria-labelledby="pills-home-tab-1">
+                                            <h4 class="mt-0 header-title mb-3">Módulo - 04</h4>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-file-document mr-2 text-success"></i>Document</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-file-document"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-file-document mr-2 text-success"></i>Document</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-file-document"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+
+                                        <div class="tab-pane fade" id="pills-profile-1" role="tabpanel" aria-labelledby="pills-profile-tab-1">
+                                            <h4 class="mt-0 header-title mb-3">Downloads</h4>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-download mr-2 text-success"></i>Download</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-download"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-download mr-2 text-success"></i>Download</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-download"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+
+                                        <div class="tab-pane fade" id="pills-contact-1" role="tabpanel" aria-labelledby="pills-contact-tab-1">
+                                            <h4 class="mt-0 header-title mb-3">Zip Files</h4>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-zip-box mr-2 text-success"></i>Zip</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-zip-box"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-zip-box mr-2 text-success"></i>Zip</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-zip-box"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+
+                                        <div class="tab-pane fade" id="pills-profile-2" role="tabpanel" aria-labelledby="pills-profile-tab-2">
+                                            <h4 class="mt-0 header-title mb-3">Cloud</h4>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-cloud mr-2 text-success"></i>Cloud</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-cloud"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-cloud mr-2 text-success"></i>Cloud</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-cloud"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+
+                                        <div class="tab-pane fade" id="pills-contact-2" role="tabpanel" aria-labelledby="pills-contact-tab-2">
+                                            <h4 class="mt-0 header-title mb-3">Apps</h4>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-android-debug-bridge mr-2 text-success"></i>Android</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-android-debug-bridge"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-apple mr-2 text-success"></i>IOS</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-apple"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+
+                                        <div class="tab-pane fade" id="pills-profile-3" role="tabpanel" aria-labelledby="pills-profile-tab-3">
+                                            <h4 class="mt-0 header-title mb-3">Pdf Files</h4>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-file-pdf mr-2 text-success"></i>PDF</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-file-pdf"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                                <div class="col-lg-6">
+                                                    <div class="card shadow-none border">
+                                                        <div class="card-body">
+                                                            <h5 class="mt-0 mb-4"><i class="mdi mdi-file-pdf mr-2 text-success"></i>PDF</h5>
+                                                            <div class="category-icon text-center">
+                                                                <i class="mdi mdi-file-pdf"></i>
+                                                            </div>
+                                                        </div><!--end card-body-->
+                                                    </div><!--end card-->
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+
+                                        <div class="tab-pane fade" id="pills-contact-3" role="tabpanel" aria-labelledby="pills-contact-tab-3">
+                                            <h4 class="mt-0 header-title mb-3">Hide Files</h4>
+                                            <div class="row">
+                                                <div class="col-sm-4 mx-auto">
+                                                    <div class="card">
+                                                        <div class="card-body">
+                                                            <div class="p-3">
+                                                                <form class="form-horizontal" action="index.html">
+
+                                                                    <div class="text-center mb-4">
+                                                                        <div class="avatar-box thumb-xl align-self-center mr-2">
+                                                                            <span class="avatar-title bg-light rounded-circle text-dark"><i class="mdi mdi-lock"></i></span>
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="input-group">
+                                                                        <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="HideCard">
+                                                                        <div class="input-group-append">
+                                                                            <button class="btn btn-primary" type="button" id="HideCard"><i class="mdi mdi-key"></i></button>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </div><!--end tab-pane-->
+                                    </div><!--end tab-content-->
+                                </div><!--end card-body-->
+                            </div><!--end card-->
+                        </div> <!-- end col -->
+                    </div> <!-- end row -->
+
+                </div><!-- container -->
+
+                      </div>
+                    </div><!--end card-->
+                </div><!--end col-->
+
+            @include('components/footer')
+            </div>
+            <!-- end page content -->
+        </div>
+        <!-- end page-wrapper -->
+
+        <!-- jQuery  -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/js/waves.min.js"></script>
+        <script src="/assets/js/jquery.slimscroll.min.js"></script>
+
+        <script src="/assets/plugins/moment/moment.js"></script>
+        <script src="/assets/plugins/apexcharts/apexcharts.min.js"></script>
+        <script src="https://apexcharts.com/samples/assets/irregular-data-series.js"></script>
+        <script src="https://apexcharts.com/samples/assets/series1000.js"></script>
+        <script src="https://apexcharts.com/samples/assets/ohlc.js"></script>
+        <script src="/assets/plugins/dropify/js/dropify.min.js"></script>
+        <script src="/assets/plugins/ticker/jquery.jConveyorTicker.min.js"></script>
+        <script src="/assets/plugins/peity-chart/jquery.peity.min.js"></script>
+        <script src="/assets/plugins/chartjs/chart.min.js"></script>
+        <script src="/assets/pages/jquery.profile.init.js"></script>
+
+        <!-- App js -->
+        <script src="/assets/js/app.js"></script>
+
+    </body>
+</html>

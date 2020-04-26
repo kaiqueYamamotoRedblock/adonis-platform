@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Elite Trader Academy © Turbo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="x" name="description"/>
+        <meta content="x" name="author" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="favicon.png">
+
+        <link href="/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.css" rel="stylesheet">
+        <!-- DataTables -->
+        <link href="/assets/plugins/datatables/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- App css -->
+        <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/icons.css" rel="stylesheet" type="text/css" />
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css" />
+
+        <style>
+
+            /* Color hover: #70898F*/
+            .btn:disabled {
+                background-color: #70898F;
+                color: #ffffff;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+            @include('components/header')
+            @include('components/headermenu')
+
+            <!-- Page Content-->
+            <div class="page-content">
+                @include('components/comingsoon')
+
+                @include('components/footer')
+
+            </div>
+            <!-- end page content -->
+        </div>
+        <!-- end page-wrapper -->
+
+
+        <!-- jQuery  -->
+        <script src="/assets/js/jquery.min.js"></script>
+        <script src="/assets/js/bootstrap.bundle.min.js"></script>
+        <script src="/assets/js/waves.min.js"></script>
+        <script src="/assets/js/jquery.slimscroll.min.js"></script>
+
+        <script src="/assets/plugins/moment/moment.js"></script>
+        <script src="/assets/plugins/apexcharts/apexcharts.min.js"></script>
+        <script src="https://apexcharts.com/samples/assets/irregular-data-series.js"></script>
+        <script src="https://apexcharts.com/samples/assets/series1000.js"></script>
+        <script src="https://apexcharts.com/samples/assets/ohlc.js"></script>
+
+        <script src="/assets/plugins/jvectormap/jquery-jvectormap-2.0.2.min.js"></script>
+        <script src="/assets/plugins/jvectormap/jquery-jvectormap-us-aea-en.js"></script>
+        <!-- Required datatable js -->
+        <script src="/assets/plugins/datatables/jquery.dataTables.min.js"></script>
+        <script src="/assets/plugins/datatables/dataTables.bootstrap4.min.js"></script>
+
+        <script src="/assets/pages/jquery.dashboard-2.init.js"></script>
+
+        <!-- App js -->
+        <script src="/assets/js/app.js"></script>
+
+    </body>
+</html>
